@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 aling="cenrer">Анкета</h1>
+    <fieldset>
+      <legend>Про себе</legend>
+      <div>
+        <label> П.І.Б <input type="text" /> </label>
+      </div>
+      <br />
+      <div>
+        <label
+          > Адреса прживання
+          <input type="text" />
+        </label>
+      </div>
+      <br />
+      <div>
+        <label> Вік <input type="number" /> </label>
+      </div>
+      <br />
+      <div>
+        <label> Пошта <input type="text" /> </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Місце роботи</legend>
+      <div>
+        <label>
+          Адреса організації
+          <input type="text" />
+        </label>
+      </div>
+      <div>
+        <label> Стаж роботи <input type="number" /> </label>
+      </div>
+      <div>
+        <label> Дата початку роботи <input type="date" name="" id="" /> </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Статичний опитувальник</legend>
+      <div>
+        <label
+          >Оцінка роботи президента
+          <input type="range" min="0" max="100" step="5" value="50" />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Коментар до виборів
+          <textarea name="userText" cols="30" rows="10">Введіть </textarea>
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend> Робота з вибором</legend>
+      <label>Вибір кави </label>
+      <div><input type="radio" name="grade" value="Арабіка" />Арабіка</div>
+       
+      <div><input type="radio" name="grade" value="Рубоста" /> Рубоста</div>
+    </fieldset>
+    <div>
+      <label>Місця відпочиеку</label>
+      <p><input type="checkbox" name="sity" />Місто</p>
+      <p><input type="checkbox" name="mouns" /> Гори</p>
+    </div>
+    <hr />
+    <div>
+      <label>автомобіль </label>
+      <select>
+        <option>BMW</option>
+        <option>Mersedes</option>
+        <option>Audi</option>
+      </select>
+    </div>
+    <hr />
+    <div>
+      <label> Випадаючий список   продуктів</label>
+      <select>
+        <optgroup label="Овочі">
+          <option>цибуля</option>
+          <option>картопля</option>
+          <option>огірки</option>
+          <option>квасоля</option>
+          <option>капуста</option>
+          <option>баклажани</option>
+        </optgroup>
+        <optgroup label="Фрукти">
+          <option>Яблука</option>
+          <option>Виноград</option>
+          <option>Груші</option>
+          <option>Сливи</option>
+          <option>Персик</option>
+        </optgroup>
+      </select>
+    </div>
+  </body>
+</html>
