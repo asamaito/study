@@ -1,0 +1,9 @@
+table tr:nth-child(odd) td:nth-child(odd) {
+  background-color: green;
+}
+table tr:nth-child(even) td:nth-child(even) {
+  background-color: green;
+}
+table.qwerty tr td:hover {
+  background-color: blue;
+}

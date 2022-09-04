@@ -1,0 +1,27 @@
+h1 {
+  color: blue;
+  text-indent: 9%;
+}
+.linkWrapper a {
+  color: green;
+}
+.linkWrapper {
+  text-align: right;
+}
+
+.red * {
+  color: red;
+}
+.yellow * {
+  color: #ffea00;
+}
+.silver * {
+  color: rgb(137, 133, 133);
+}
+.blue * {
+  color: rgb(63, 98, 178);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}

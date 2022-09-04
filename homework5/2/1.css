@@ -1,0 +1,38 @@
+.first {
+  border: solid 5px black;
+  width: 420px;
+  height: 430px;
+  margin: auto;
+}
+.inside1 {
+  border: solid 5px red;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 15px;
+  display: inline-block;
+}
+.inside2 {
+  border: solid 5px rgb(22, 228, 32);
+  width: 150px;
+  height: 150px;
+  text-align: left;
+  margin: 15px;
+  display: inline-block;
+}
+.inside3 {
+  border: solid 5px rgb(18, 177, 23);
+  width: 150px;
+  height: 150px;
+  text-align: right;
+  margin: 15px;
+  display: inline-block;
+}
+.inside4 {
+  border: solid 5px rgb(244, 59, 3);
+  width: 150px;
+  height: 150px;
+  text-align: left;
+  margin: 15px;
+  display: inline-block;
+}

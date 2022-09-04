@@ -1,0 +1,10 @@
+p:first-letter {
+  color: rgba(255, 0, 0, 0.72);
+}
+div p:nth-child(3) {
+  color: rgba(22, 193, 34, 0.638);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}

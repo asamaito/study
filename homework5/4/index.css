@@ -1,0 +1,37 @@
+.box {
+  background-color: rgb(180, 179, 177);
+  width: 480px;
+}
+
+.item1 {
+  width: 150px;
+  height: 100px;
+  background-color: plum;
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+}
+.item2 {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(68, 118, 225);
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+}
+.item3 {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(186, 223, 66);
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+}
+.item4 {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(5, 138, 30);
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+}

@@ -1,0 +1,32 @@
+.first {
+  border: black solid 5px;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+.second {
+  border: red solid 5px;
+  width: 400px;
+  height: 470px;
+  margin: 15px 50px 10px 50px;
+}
+.inside1 {
+  border: green solid 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 25%;
+}
+.inside2 {
+  border: rgb(41, 17, 178) solid 5px;
+  box-sizing: border-box;
+  width: 95%;
+  height: 47%;
+  margin: 6px auto 10px;
+}
+.inside3 {
+  border: rgb(75, 63, 179) solid 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 25%;
+  margin: 0px;
+}

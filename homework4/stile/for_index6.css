@@ -1,0 +1,12 @@
+table td:nth-child(4n + 1)::first-letter {
+  background-color: rgba(255, 0, 0, 0.626);
+}
+table td:nth-child(4n + 2)::first-letter {
+  background-color: rgba(73, 53, 206, 0.63);
+}
+table td:nth-child(4n + 3)::first-letter {
+  background-color: rgba(246, 246, 51, 0.7);
+}
+table td:nth-child(4n + 4)::first-letter {
+  background-color: rgba(16, 217, 5, 0.698);
+}

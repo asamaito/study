@@ -1,0 +1,21 @@
+.block {
+  display: inline-block;
+  vertical-align: top;
+  margin: -2px;
+  padding: 3px;
+  background-color: aqua;
+}
+div.block :first-child {
+  width: 120px;
+  font-weight: bolder;
+  color: black;
+  padding: 5px 5px 5px 0px;
+}
+div.block :not(:first-child) {
+  width: 100px;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: underline;
+  color: blue;
+  padding: 5px 0px 3px 8px;
+}

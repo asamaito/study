@@ -1,0 +1,25 @@
+.box {
+  border: solid black 3px;
+  width: 400px;
+  height: 315px;
+  display: block;
+}
+.item1 {
+  background-color: rgb(255, 0, 0);
+  float: right;
+  width: 200px;
+  height: 270px;
+}
+.item2 {
+  float: left;
+  background-color: green;
+  width: 200px;
+  height: 150px;
+}
+.item3 {
+  background-color: blue;
+}
+div {
+  margin: 0px;
+  padding: 0px;
+}

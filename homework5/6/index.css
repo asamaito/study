@@ -1,0 +1,45 @@
+.box {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgb(192, 177, 197);
+  padding: 10px;
+  border-radius: 17px;
+}
+h1 {
+  font-family: cursive;
+  text-align: center;
+}
+.firstBox {
+  display: flex;
+  border: 2px solid olive;
+  border-radius: 8px;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  padding: 5px;
+  width: 1000px;
+}
+.box2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+.box2 {
+  display: flex;
+  justify-content: space-betweenx;
+}
+.box2 div {
+  width: 230px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 13px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+}
